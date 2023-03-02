@@ -20,7 +20,23 @@ int main()
         printf("\n\nEnter the choice: ");
         scanf("%d", &choice);
 
+        switch (choice)
+        {
+        case 1:
+            push();
+            break;
+        case 2:
+            pop();
+            break;
+        case 3:
+            show();
+            break;
+        case 4:
+            exit(0);
 
+        default:
+            printf("\nInvalid choice!!");
+        }
     }
 }
 
