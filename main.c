@@ -40,3 +40,22 @@ int main()
     }
 }
 
+void push()
+{
+    int x;
+
+    if (top == SIZE - 1)
+    {
+        printf("\nOverflow!!");
+    }
+    else
+    {
+        printf("\nEnter the element to be added onto the stack: ");
+        scanf("%d", &x);
+        top = top + 1;
+        inp_array[top] = x;
+    }
+}
+
+
+
