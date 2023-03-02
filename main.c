@@ -1,8 +1,11 @@
 #include <stdio.h>
+
 #include <stdlib.h>
 
-int main()
-{
-    printf("Hello world!\n");
-    return 0;
-}
+#define SIZE 4
+
+int top = -1, inp_array[SIZE];
+void push();
+void pop();
+void show();
+
